@@ -1,0 +1,31 @@
+{
+  "name": "SkyClimb",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      },
+      "Remotes": {
+        "$className": "Folder",
+        "Purchase": { "$className": "RemoteFunction" },
+        "EquipTrail": { "$className": "RemoteEvent" },
+        "Rebirth": { "$className": "RemoteEvent" },
+        "Notify": { "$className": "RemoteEvent" },
+        "CoinCollected": { "$className": "RemoteEvent" }
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    }
+  }
+}
