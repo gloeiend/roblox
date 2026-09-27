@@ -1,0 +1,38 @@
+{
+  "name": "HollowManor",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      },
+      "Remotes": {
+        "$className": "Folder",
+        "Flashlight": { "$className": "RemoteEvent" },
+        "Restart": { "$className": "RemoteEvent" },
+        "Note": { "$className": "RemoteEvent" },
+        "Message": { "$className": "RemoteEvent" },
+        "Jumpscare": { "$className": "RemoteEvent" },
+        "Hide": { "$className": "RemoteEvent" },
+        "Reveal": { "$className": "RemoteEvent" },
+        "Taken": { "$className": "RemoteEvent" },
+        "Ending": { "$className": "RemoteEvent" }
+      },
+      "GameState": {
+        "$className": "Configuration"
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    }
+  }
+}

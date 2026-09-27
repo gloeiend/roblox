@@ -1,3 +1,10 @@
+# Roblox games
+
+This repo has two games, each a standalone [Rojo](https://rojo.space) project:
+
+- **Sky Climb** (this folder): a 40-stage obby with coins, upgrades and rebirths.
+- **[Hollow Manor](hollow-manor/)**: a story horror game where you end up as the villain.
+
 # Sky Climb
 
 A complete Roblox obby built entirely in code with [Rojo](https://rojo.space).
